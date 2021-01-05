@@ -1,0 +1,11 @@
+.cursor {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    clip-path: circle(50% at 50% 50%);
+    pointer-events: none;
+    transition: transform .3s ease-in, opacity .3s ease-in;
+    background-color: #fff;
+    z-index: 1001;
+}
